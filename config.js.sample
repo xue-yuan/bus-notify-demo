@@ -1,0 +1,6 @@
+CONFIG = {
+  API_SERVER: '',
+  APP_ID: '',
+  APP_KEY: '',
+  QUERY_INTERVAL: 0,
+};

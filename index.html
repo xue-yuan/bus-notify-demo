@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus Stop Notification</title>
+  </head>
+  <body>
+    <select id="city">
+      <option value="Taipei">臺北市</option>
+      <option value="NewTaipei">新北市</option>
+      <option value="Taoyuan">桃園市</option>
+      <option value="Taichung">臺中市</option>
+      <option value="Tainan">臺南市</option>
+    </select>
+
+    <input id="busNo" type="text" placeholder="車號" />
+
+    <select id="direction">
+      <option disabled value="" selected>行駛方向</option>
+    </select>
+
+    <select id="stop"></select>
+
+    <button id="register">註冊通知</button>
+
+    <div>
+      <h3>Registered Notification</h3>
+      <ul id="registeredNotification"></ul>
+    </div>
+
+    <script type="text/javascript" src="./src/lib/sha1.js"></script>
+    <script type="text/javascript" src="./config.js"></script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
